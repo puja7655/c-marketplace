@@ -17,12 +17,7 @@ export default function RootLayout({
           <p>My Project</p>
         </header>
         {children}
-        <footer style={
-          {
-            backgroundColor: "ghostwhite",
-            padding: "1rem"
-          }
-        }>
+        <footer>
         </footer>
       </body>
     </html>
