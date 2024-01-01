@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.navbar {
+  background: rgb(154, 198, 240);
+  padding: 1rem;
+}

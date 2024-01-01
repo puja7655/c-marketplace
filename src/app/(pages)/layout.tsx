@@ -15,7 +15,7 @@ export default function MartketPlaceLayout({ children }:
     }) {
         const pathName=usePathname();//it gives the current URL
     return (
-        <div>
+        <div className="ml-2">
             {navLinks.map((link) => {
                 const isActive=pathName.startsWith(link.href)
                 return (
