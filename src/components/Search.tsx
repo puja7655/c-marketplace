@@ -1,5 +1,4 @@
 'use client'
-//serach functonality
 import React, { useEffect, useState } from 'react'
 import { MagnifyingGlassIcon } from '@heroicons/react/20/solid'
 import { useRouter } from 'next/navigation'

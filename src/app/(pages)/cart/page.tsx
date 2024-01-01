@@ -1,5 +1,5 @@
 'use client'
-//card to show the summary of added items in the caed
+
 import { useGlobalContext } from "@/app/Context/store";
 import CartItem from "@/components/CartItem";
 import Link from "next/link";

@@ -1,5 +1,5 @@
 'use client'
-// card to show the list of projects present
+
 import { useGlobalContext } from "@/app/Context/store";
 import ProjectCard from "@/components/ProjectCard";
 import Search from "@/components/Search";
@@ -74,7 +74,7 @@ const projects = [
     "description": "The \"EverGreen Carbon\" project is a transformative carbon credit initiative aimed at restoring and maintaining vital forest ecosystems.\nThrough reforestation, afforestation, and sustainable forest management, we will sequester significant carbon dioxide, enhance biodiversity, empower local communities, and combat deforestation. Verified carbon credits will be generated, reflecting the project's positive impact on the environment. Join us in creating a sustainable and greener future with EverGreen Carbon."
   }
 ]
-let success = false; 
+let success = false;
 
 export default function MarketPlace({
   searchParams
