@@ -8,7 +8,7 @@ import { useDebounce } from 'use-debounce'
 const Search = () => {
     const router = useRouter();
     const [searchText, setSearchText] = useState('')
-    const [debouncedSearchText] = useDebounce(searchText, 500);
+    const [debouncedSearchText] = useDebounce(searchText, 10);
 
     useEffect(() => {
         console.log(searchText)
