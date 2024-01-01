@@ -10,10 +10,6 @@ const mockCartData = [
 ];
 
 describe('Cart Component', () => {
-  beforeEach(() => {
-    //(useGlobalContext as jest.Mock).mockReturnValue({ cartData: mockCartData });
-  });
-
   test('displays Back to Marketplace link', () => {
     render(<Cart />);
 
